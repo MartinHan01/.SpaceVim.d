@@ -42,9 +42,6 @@
 
 #c/c++ developer---begin---
 [[layers]]
-    name = "lang#c"
-
-[[layers]]
     name = 'lang#c'
     enable_clang_syntax_highlight = true
 
