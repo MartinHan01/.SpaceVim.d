@@ -8,6 +8,7 @@
 
 # All SpaceVim option below [option] section
 [options]
+    default_indent = 4 
     # set spacevim theme. by default colorscheme layer is not loaded,
     # if you want to use more colorscheme, please load the colorscheme
     # layer
@@ -26,42 +27,42 @@
 
 # Enable autocomplete layer
 [[layers]]
-  name = 'autocomplete'
-  auto_completion_return_key_behavior = "complete"
-  auto_completion_tab_key_behavior = "smart"
+    name = 'autocomplete'
+    auto_completion_return_key_behavior = "complete"
+    auto_completion_tab_key_behavior = "smart"
 
 [[layers]]
-  name = 'shell'
-  default_position = 'top'
-  default_height = 30
+    name = 'shell'
+    default_position = 'top'
+    default_height = 30
 
 [[layers]]
-  name = "colorscheme"
+    name = "colorscheme"
 
 
 #c/c++ developer---begin---
 [[layers]]
-  name = "lang#c"
+    name = "lang#c"
 
 [[layers]]
     name = 'lang#c'
     enable_clang_syntax_highlight = true
 
 [[layers]]
-  name = "lsp"
+    name = "lsp"
 
 [[layers]]
-  name = "lsp"
-  filetypes = [
-    "c",
-    "cpp"
-  ]
+    name = "lsp"
+    filetypes = [
+        "c",
+        "cpp"
+    ]
 
 [layers.override_cmd]
-  c = ["clangd"]
+    c = ["clangd"]
 
 [[layers]]
-  name = "format"
+    name = "format"
 
 
 
